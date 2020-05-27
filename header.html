@@ -9,8 +9,11 @@
 				<span class="icon-bar"></span>
             </button>
             <a href="#!">
-                <img src="images/logo.png" style="width: 50px">
+                <img class="logo" src="images/logo.png" style="width: 50px">
             </a>
+            <form action="#!product" class="navbar-form navbar-left" role="search">
+                <input type="text" ng-model="$parent.search" ng-click="Check()" class=" form-control " placeholder="Search ">
+            </form>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -23,9 +26,9 @@
                 <li><a href="#!faqs"><i class="fas fa-question-circle"></i> Faqs</a></li>
                 <li><a href="#!contact"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
             </ul>
-            <form action="#!product" class="navbar-form navbar-left" role="search">
+            <!-- <form action="#!product" class="navbar-form navbar-left" role="search">
                 <input type="text" ng-model="$parent.search" ng-click="Check()" class=" form-control " placeholder="Search ">
-            </form>
+            </form> -->
             <ul class="nav navbar-nav navbar-right ">
                 <li class="follow ">
                     <a href="# "><i class="face fab fa-facebook fa-2x "></i></a>
