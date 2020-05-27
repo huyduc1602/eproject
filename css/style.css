@@ -165,9 +165,7 @@ body {
     .main-product .caption span {
         height: 136px!important;
         font-size: 10px;
-    }
-    .caption span .scollbar {
-        display: none;
+        scroll-behavior: unset;
     }
 }
 
