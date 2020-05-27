@@ -571,6 +571,15 @@ h1 {
     box-sizing: border-box;
 }
 
+.faqs .question {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border-radius: 3px;
+    padding: 3px;
+    border: 1px solid transparent;
+}
+
 .faqs ul {
     padding-left: 0;
 }
