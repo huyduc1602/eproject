@@ -1,0 +1,35 @@
+<ol class="breadcrumb hidden-xs">
+    <li>
+        <a href="#!">Home</a>
+    </li>
+    <li class="active">Gallerry</li>
+</ol>
+<div class="main-gallery">
+
+    <h1>VENUSHANDICRAFTS.COM</h1>
+    <hr>
+
+    <h2>Galerry Images</h2>
+
+    <div id="myBtnContainer">
+        <button style="margin-bottom: 10px;" class="btn active" ng-click="showAll()"> Show all</button>
+        <span ng-repeat="cat in category">
+        <button style="margin-bottom: 10px;" class="btn" ng-click="showPro(cat.id)"> {{cat.name}}</button>
+        </span>
+    </div>
+
+    <!-- Portfolio Gallery Grid -->
+    <div class="row products">
+        <div>
+            <span ng-repeat=" (key,pro) in products ">
+                <div class="col-md-4">
+                    <div class="content ">
+                        <img class="thumbnail " ng-src="{{pro.image}} " alt="{{pro.cat_name}} " style="width:100% ">
+                        <!-- <h4>{{cat.image}}</h4>
+                        <p>Lorem ipsum dolor..</p> -->
+                    </div>
+                </div>
+                <!-- END MAIN -->
+            </span>
+        </div>
+    </div>

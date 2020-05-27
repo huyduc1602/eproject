@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="AppController">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venus Handicrafts Website</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- CSS self designed -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <div ng-include="'header.html'"></div>
+    <!-- Pages load -->
+    <ng-view></ng-view>
+    <!-- end -->
+    <!-- footer -->
+    <div ng-include="'footer.html'"></div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Angular js -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <!-- jquery validate js -->
+    <script src="js/jquery.validate.min.js"></script>
+    <!-- javascript file self designed -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

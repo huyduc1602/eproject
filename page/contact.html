@@ -1,0 +1,134 @@
+<!-- Phần main -->
+<main class="container contact">
+    <ol class="breadcrumb hidden-xs">
+        <li>
+            <a href="#!">Home</a>
+        </li>
+        <li class="active">Contact</li>
+    </ol>
+    <h3>Contact us for advice</h3>
+    <div class="contain-contact">
+        <div class="col-md-6 col-sm-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6574756110213!2d105.78126221423489!3d21.046386992553757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab32dd484c53%3A0x4201b89c8bdfd968!2zMjM4IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBD4buVIE5odeG6vywgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1570592345110!5m2!1svi!2s"
+                width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <!-- form liên hệ -->
+            <form action="mailto:info@venus_handicrafts@gmail.com" enctype="text/plain" method="POST" class="form-inline" role="form" name="myForm" novalidate>
+
+                <div class="form-group">
+                    <div class="input-haft col-md-6 col-sm-12">
+                        <input type="text" name="name" ng-model="name" placeholder="Full Name" class="form-control" required>
+                        <div class="help-block" ng-show="myForm.name.$dirty">
+                            <small ng-show="myForm.name.$error.required">
+                                Full name must not be blank!
+                            </small>
+                        </div>
+                    </div>
+                    <div class="input-haft col-md-6 col-sm-12">
+                        <input type="text" name="phone" ng-model="phone" placeholder="Phone Number" class="form-control" required>
+                        <div class="help-block" ng-show="myForm.phone.$dirty">
+                            <small ng-show="myForm.phone.$error.required">
+                                Phone number can not be left blank!
+                            </small>
+                            <small ng-show="myForm.phone.$error.check_phone">
+                                The phone number is not in the right format!
+                            </small>
+                        </div>
+                    </div>
+                    <div class="input-haft col-md-6 col-sm-12">
+                        <input type="email" name="email" ng-model="email" placeholder="Email" class="form-control" required>
+                        <div class="help-block" ng-show="myForm.email.$dirty">
+                            <small ng-show="myForm.email.$error.required">
+                                  Email must not be blank!
+                                </small>
+                            <small ng-show="myForm.email.$error.email">
+                                   Email invalidate!
+                            </small>
+                        </div>
+                    </div>
+                    <div class="input-haft col-md-6 col-sm-12">
+                        <input type="text" name="address" ng-model="address" placeholder="Address" class="form-control" required>
+                        <div class="help-block" ng-show="myForm.address.$dirty">
+                            <small ng-show="myForm.address.$error.required">
+                                Address must not be blank!
+                            </small>
+                        </div>
+                    </div>
+                    <div class="text-full">
+                        <textarea name="Content" rows="4" placeholder="Content"></textarea>
+                    </div>
+                </div>
+                <button id="btnContact" type="submit" class="btn btn-danger" ng-disabled="myForm.name.$error.required||myForm.phone.$error.required||myForm.email.$error.required||myForm.email.$error.email||myForm.address.$error.required">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="name-shop">
+                <h3>VENUS HANDICRAFTS</h3>
+                <div class="list-address">
+                    <ul class="address">
+                        <li>
+                            <p class="title">North Branch</p>
+                            <ul>
+                                <li>
+                                    <p class="glyphicon glyphicon-map-marker">HTC Building, 238 Hoang Quoc Viet, Co Nhue, Cau Giay, Hanoi</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-earphone"> (024).3783.5639 - (024).3783.5640</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-phone-alt"> (024)3.783.5641</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-envelope"> info@venus_handicrafts@gmail.com</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-globe"> venushandicrafts.com</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="title">Central branch</p>
+                            <ul>
+                                <li>
+                                    <p class="glyphicon glyphicon-map-marker">HTC Building, 238 Hoang Quoc Viet, Co Nhue, Cau Giay, Hanoi</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-earphone"> (024).3783.5639 - (024).3783.5640</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-phone-alt"> (024)3.783.5641</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-envelope"> info@venus_handicrafts@gmail.com</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-globe"> venushandicrafts.com</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="title">Southern branch</p>
+                            <ul>
+                                <li>
+                                    <p class="glyphicon glyphicon-map-marker">HTC Building, 238 Hoang Quoc Viet, Co Nhue, Cau Giay, Hanoi</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-earphone"> (024).3783.5639 - (024).3783.5640</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-phone-alt"> (024)3.783.5641</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-envelope"> info@venus_handicrafts@gmail.com</p>
+                                </li>
+                                <li>
+                                    <p class="glyphicon glyphicon-globe"> venushandicrafts.com</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>

@@ -1,0 +1,164 @@
+[{
+        "id": 1,
+        "name": "Product 1",
+        "cat_id": 1,
+        "cat_name": "Aluminium Handicrafts",
+        "image": "images/products/ALUMINIUM_HANDICRAFTS/1.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "cat_id": 1,
+        "cat_name": "Aluminium Handicrafts",
+        "image": "images/products/ALUMINIUM_HANDICRAFTS/2.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 3,
+        "name": "Product 3",
+        "cat_id": 2,
+        "cat_name": "BRASS HANDICRAFTS",
+        "image": "images/products/BRASS_HANDICRAFTS/3.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 4,
+        "name": "Product 4",
+        "cat_id": 2,
+        "cat_name": "BRASS HANDICRAFTS",
+        "image": "images/products/BRASS_HANDICRAFTS/4.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 5,
+        "name": "Product 5",
+        "cat_id": 3,
+        "cat_name": "CANDLE ACCESSORIES",
+        "image": "images/products/CANDLE_ACCESSORIES/5.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 6,
+        "name": "Product 6",
+        "cat_id": 3,
+        "cat_name": "CANDLE ACCESSORIES",
+        "image": "images/products/CANDLE_ACCESSORIES/6.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 7,
+        "name": "Product 7",
+        "cat_id": 4,
+        "cat_name": "GLASS HANDICRAFTS",
+        "image": "images/products/GLASS_HANDICRAFTS/7.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 8,
+        "name": "Product 8",
+        "cat_id": 4,
+        "cat_name": "GLASS HANDICRAFTS",
+        "image": "images/products/GLASS_HANDICRAFTS/8.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 9,
+        "name": "Product 9",
+        "cat_id": 5,
+        "cat_name": "HOME DECOR",
+        "image": "images/products/HOME_DECOR/9.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 10,
+        "name": "Product 10",
+        "cat_id": 5,
+        "cat_name": "HOME DECOR",
+        "image": "images/products/HOME_DECOR/10.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 11,
+        "name": "Product 11",
+        "cat_id": 6,
+        "cat_name": "IRON HANDICRAFTS",
+        "image": "images/products/IRON_HANDICRAFTS/11.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 12,
+        "name": "Product 12",
+        "cat_id": 6,
+        "cat_name": "IRON HANDICRAFTS",
+        "image": "images/products/IRON_HANDICRAFTS/12.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 13,
+        "name": "Product 13",
+        "cat_id": 7,
+        "cat_name": "TABLE WARES",
+        "image": "images/products/TABLE_WARES/13.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 14,
+        "name": "Product 14",
+        "cat_id": 7,
+        "cat_name": "TABLE WARES",
+        "image": "images/products/TABLE_WARES/14.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 15,
+        "name": "Product 15",
+        "cat_id": 8,
+        "cat_name": "Handicraft Decorative",
+        "image": "images/products/HANDICRAFTS_DECORATIVE/15.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 16,
+        "name": "Product 16",
+        "cat_id": 8,
+        "cat_name": "Handicraft Decorative",
+        "image": "images/products/HANDICRAFTS_DECORATIVE/16.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 17,
+        "name": "Product 17",
+        "cat_id": 9,
+        "cat_name": "Wood Handicrafts",
+        "image": "images/products/WOOD_HANDICRAFTS/17.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    },
+    {
+        "id": 18,
+        "name": "Product 18",
+        "cat_id": 9,
+        "cat_name": "Wood Handicrafts",
+        "image": "images/products/WOOD_HANDICRAFTS/18.jpg",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae ipsa tenetur doloremque",
+        "introduction": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum nulla natus quas molestias, nihil officiis. Debitis, unde.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam sequi sunt reiciendis maxime atque autem praesentium veniam voluptatem explicabo, ipsam ipsum rerum"
+    }
+
+]

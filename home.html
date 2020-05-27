@@ -1,0 +1,116 @@
+<!-- banner for website -->
+<div class="banner">
+    <div id="carousel-id" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+            <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner/banner1.jpg" class="img-banner">
+                <div class="text-block">
+                    <h4 style="color: #d79a2b;">Next</h4>
+                    <div class="content-box">Weave The Dream</div>
+                    <i style="color: #d79a2b;" class="fas fa-long-arrow-alt-right fa-3x"></i>
+                </div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <p class="carousel-label">HANDICRAFTS</p>
+                        <h1 class="carousel-title">Natural Homewares</h1>
+                        <div class="carousel-description">Woven by artisans’ passion with natural fibers, we make eco-friendly products with exquisite contemporary designs for a sustainable lifestyle.
+                        </div>
+                        <a href="#" class="button">CHECK THE LOOKBOOK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner/banner2.jpg" class="img-banner">
+                <div class="text-block">
+                    <h4 style="color: #d79a2b;">Next</h4>
+                    <div class="content-box">Weave The Dream</div>
+                    <i style="color: #d79a2b;" class="fas fa-long-arrow-alt-right fa-3x"></i>
+                </div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <p class="carousel-label">HANDICRAFTS</p>
+                        <h1 class="carousel-title">Natural Homewares</h1>
+                        <div class="carousel-description">Woven by artisans’ passion with natural fibers, we make eco-friendly products with exquisite contemporary designs for a sustainable lifestyle.
+                        </div>
+                        <a href="product.html" class="button">CHECK THE LOOKBOOK</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/banner/banner3.jpg" class="img-banner">
+                <div class="text-block">
+                    <h4 style="color: #d79a2b;">Next</h4>
+                    <div class="content-box">Weave The Dream</div>
+                    <i style="color: #d79a2b;" class="fas fa-long-arrow-alt-right fa-3x"></i>
+                </div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <p class="carousel-label">HANDICRAFTS</p>
+                        <div class="carousel-title">Natural Homewares</div>
+                        <div class="carousel-description">Woven by artisans’ passion with natural fibers, we make eco-friendly products with exquisite contemporary designs for a sustainable lifestyle.
+                        </div>
+                        <a href="#!gallery" class="button">CHECK THE LOOKBOOK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+</div>
+<!-- main section -->
+<main>
+    <div class="caption-main">
+        <p style="color: #d79a2b">CATEGORIES</p>
+        <h1>Hot Products</h1>
+    </div>
+    <!-- view product -->
+    <div class="products">
+        <div class="container">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-repeat="pro in products|limitTo:3">
+                <div class="thumbnail">
+                    <img src="{{pro.image}}">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="see_you_product">
+        <a href="#!product" class="button col-md-2 col-md-offset-5">SEE ALL PRODUCTS</a>
+    </div>
+    <div class="logo-main text-center">
+        <img src="images/logo.png">
+    </div>
+    </div>
+    <div class="banner-text-content">
+        <div class="p2 banner-text-label">Philosophy</div>
+        <h2 class="h2 banner-text-title">Another Mindset Of Handicrafts</h2>
+        <p class="banner-text-description p8">We create the handicrafts where the finest essence of traditional craftsmanship and contemporary home interiors blend in harmony. Beyond that, we can bring nature closer to urban lives and narrow down the gap between tradition and modernity.</p>
+    </div>
+    <section>
+        <div class="container">
+            <hr>
+            <div class="col-md-6 col-xs-12">
+                <p class="p2">Our Story</p>
+                <h2 class="h2 two-up-carousel-item-title">Enhance Vietnamese craftsmanship in global market</h2>
+                <div class="row">
+                    <div class="col-md-6  col-xs-6">
+
+                        <img src="images/home/home1.jpg" style="max-width: 200px;" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-6  col-xs-6">
+                        <img src="images/home/home2.jpg" style="max-width: 200px;" class="img-thumbnail">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  col-xs-12">
+                <img src="images/home/home4.jpg" class="img-thumbnail">
+            </div>
+        </div>
+    </section>
+</main>
+<hr>

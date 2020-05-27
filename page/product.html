@@ -1,0 +1,41 @@
+<ol class="breadcrumb hidden-xs">
+    <li>
+        <a href="#!">Home</a>
+    </li>
+    <li class="active">Product</li>
+</ol>
+<!-- banner for website -->
+<div class="banner-product">
+    <div>
+        <img src="../images/banner/banner_merge.jpg" alt="" style="width: 100%">
+    </div>
+</div>
+
+<!-- end banner for website -->
+<!-- main for website -->
+<div class="main-product">
+    <div ng-repeat="cat in category | productfilter:search">
+        <div class="product">
+            <div class="container">
+                <h2 style="color: blueviolet "><b>{{cat.name}}</b></h2>
+                <div class="thumbnail">
+                    <div class="row">
+                        <div class="col-xs-4 col-md-4">
+                            <img class="img-left" id="idleft-{{cat.id}}" style="cursor: pointer;" ng-src="{{cat.image1}}" ng-click="tabGallery('idleft-'+cat.id,'idright-'+cat.id);" width="100%">
+                            <div class="caption panel">
+                                <span>
+										{{cat.content}}
+								</span>
+                            </div>
+                        </div>
+                        <div class="col-xs-8 col-md-8">
+                            <img class="img-right" class="thumbnail" id="idright-{{cat.id}}" ng-src="{{cat.image2}}" width="100%">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
