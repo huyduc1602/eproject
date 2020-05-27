@@ -16,6 +16,9 @@
         .navbar-form {
             margin-bottom: 0px;
         }
+        .navbar-form input {
+            width: 100%;
+        }
     }
     
     .navbar-form .form-control {
