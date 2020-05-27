@@ -164,6 +164,7 @@ body {
 @media screen and (max-width:1024px) {
     .main-product .caption span {
         height: 136px!important;
+        font-size: 10px;
     }
     .caption span .scollbar {
         display: none;
@@ -559,15 +560,15 @@ h1 {
 
 /* style for faqs page */
 
-.faqs .container {
+.faqs .content {
     background: url(../images/theme/faqs-theme.jpg);
     clear: both;
     padding: 40px;
-    width: 880px;
     min-height: 400px;
     border-radius: 5px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .faqs ul {
